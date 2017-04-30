@@ -1,0 +1,15 @@
+<div class="pattern-container" ng-style="{'width': vm.patternSize * 100 + 'px'}">
+  <div class="pattern-node" node-index="{{$index}}"
+                            ng-class="{'active': node.active}"
+                            ng-repeat="node in vm.nodes"
+                            ng-click="vm.toggleNode($index, true)">
+    <div class="dot"></div>
+    <!-- <div class="label">{{$index}}</div> -->
+  </div>
+
+  <div class="pattern-line"
+       ng-repeat="line in vm.lines"
+       ng-style="line.style"
+       ng-class="line.direction"
+       ></div>
+</div>
