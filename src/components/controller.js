@@ -16,17 +16,17 @@ angular.module('app',[
            .state('app', {
              abstract: true,
              url: '/app',
-             templateUrl: 'components/common/views/app.index.html',
+             templateUrl: 'components/common/views/index.html',
              controller: 'AppCtrl',
              controllerAs: 'app'
            })
            .state('app.index', {
              url: '/index',
-             templateUrl: 'components/common/views/app.lock.html'
+             templateUrl: 'components/common/views/lock.html'
            })
            .state('app.unlock', {
              url: '/unlock',
-             templateUrl: 'components/common/views/app.unlock.html'
+             templateUrl: 'components/common/views/unlock.html'
            })
        })
        .controller('AppCtrl', [

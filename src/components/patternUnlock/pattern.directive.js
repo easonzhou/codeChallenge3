@@ -6,6 +6,8 @@ angular.module('patternUnlock')
         return {
             restrict: 'E',
             templateUrl: 'components/patternUnlock/views/pattern.directive.html',
+            controller: PatternCtrl,
+            controllerAs: 'vm',
             bindToController: {
                 onDraw: '&'
             },
@@ -38,8 +40,6 @@ angular.module('patternUnlock')
                     angular.element(el).off('mousedown touchstart mousemove touchmove mouseup touchend');
                 })
             },
-            controller: PatternCtrl,
-            controllerAs: 'vm',
         }
     })
 

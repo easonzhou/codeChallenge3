@@ -8,6 +8,7 @@
   "dependencies": {},
   "scripts": {},
   "devDependencies": {
+    "angular": "^1.6.4",
     "browser-sync": "^2.17.0",
     "gulp": "^3.9.1",
     "gulp-angular-filesort": "^1.1.1",
