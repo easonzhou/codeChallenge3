@@ -10,6 +10,13 @@ Android pattern unlock
 - the order in which the dots are connected matters (thus making it a directed graph)
 - dots are connected with a straight line meaning that all points on the path of the line get connected
 
+## Screenshots
+
+![Screenshot1](./screenshot1.png)
+![Screenshot2](./screenshot2.png)
+![Screenshot3](./screenshot3.png)
+
+
 ## How to run
 ### Download dependencies
 
