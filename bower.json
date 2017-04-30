@@ -34,9 +34,5 @@
         "dist/css/bootstrap.css"
       ]
     }
-  },
-  "resolutions": {
-    "angular-animate": "~1.5.9",
-    "angular": "1.5.9"
   }
 }
