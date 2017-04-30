@@ -21,3 +21,11 @@ $ bower install
 ```
 $ gulp
 ```
+
+    1. When you open the app at the firs time, it will ask you to input a pattern.
+    2. After the first setup of the pattern, it will store the pattern in the browser's localStorage.
+    3. Anytime you can unlock the screen against the saved pattern in the browser or you can reset the pattern. 
+
+### tests
+
+Tested in chrome, firefox, and safari in Mac OSX as well as Chrome and Safari iOS browsers.
